@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ZipFiles" Class="UnzipDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ZipFiles.db.10059487.hostedresource.com;Initial Catalog=ZipFiles;Persist Security Info=True;User ID=ZipFiles" SettingsObjectName="Unzipper.Properties.Settings" SettingsPropertyName="ZipFilesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ZipFileName" Member="ZipFileNames">
+    <Type Name="ZipFileName">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ZipFileName" Member="ZipFileName1" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Extracted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
